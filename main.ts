@@ -1081,3 +1081,6 @@ game.onUpdate(function () {
         }
     }
 })
+forever(function () {
+    music.playMelody("A C5 B G C5 A A A ", 120)
+})
